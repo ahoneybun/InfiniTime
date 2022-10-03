@@ -6,13 +6,13 @@ If you just want to flash or upgrade InfiniTime on your PineTime, this page is f
 
 You can check the InfiniTime version by first swiping right on the watchface to open quick settings, tapping the cogwheel to open settings, swipe up until you find an entry named "About" and tap on it.
 
-![InfiniTime 1.0 version](version-1.0.jpg)
+![InfiniTime 1.0 version](images/version-1.0.jpg)
 
 PineTimes shipped after June 2021 will ship with the latest version of [the bootloader](https://github.com/JF002/pinetime-mcuboot-bootloader/releases/tag/1.0.0) and [recovery firmware](https://github.com/InfiniTimeOrg/InfiniTime/releases/tag/0.14.1)
 
 The bootloader is run right before booting into InfiniTime. It is easily recognizable with its white pine cone that is progressively drawn in green. It also displays its own version on the bottom (1.0.0 as of now).
 
-![Bootloader 1.0](bootloader-1.0.jpg)
+![Bootloader 1.0](images/bootloader-1.0.jpg)
 
 ## Updating with companion apps
 
@@ -54,11 +54,11 @@ You can use the companion app of your choice to flash the resources.
 ## Amazfish
 Use the `Download file` functionality of Amazfish. 
 
-![Update resources with Amazfish - Download file](amazfish-external-resources-1.png)
+![Update resources with Amazfish - Download file](images/amazfish-external-resources-1.png)
 
 Amazfish automatically detects the file type (firmware or resources) and apply the corresponding flash procedure when you hit the button **Send file**.
 
-![Update resources with Amazfish](amazfish-external-resources-2.png)
+![Update resources with Amazfish]images/(amazfish-external-resources-2.png)
 
 ## ITD
 
@@ -70,4 +70,4 @@ itctl res load infinitime-resources-1.10.0.zip
 
 Example:
 
-![Update resources using itctl](itd-external-resources.png)
+![Update resources using itctl](images/itd-external-resources.png)
